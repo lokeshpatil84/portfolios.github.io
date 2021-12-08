@@ -11,8 +11,29 @@ html{
 }
 body{
     background-color: rgba(13, 107, 110, 0.651);
+    animation: changeBg 10s linear infinite;
 }
+@keyframes changeBg{
+    0% {
+        background-color: blueviolet;
+    }
+    20% {
+        background-color: rgb(10, 159, 170);
+    }
+    40% {
+        background-color: rgb(6, 209, 245);
 
+    }
+    60% {
+        background-color: rgb(218, 71, 13);
+    }
+    80% {
+        background-color: rgb(198, 230, 22);
+    }
+    100%{
+        background-color: rgb(173, 6, 131);
+    }
+}
 /*===========================social=================================*/
 
 .footer_social{
