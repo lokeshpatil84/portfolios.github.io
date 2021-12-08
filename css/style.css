@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgba(13, 107, 110, 0.651);
+   
     animation: changeBg 10s linear infinite;
 }
 @keyframes changeBg{
