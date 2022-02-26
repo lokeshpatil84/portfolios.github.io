@@ -10,9 +10,28 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  animation: changeBg 10s linear infinite;
 }
-
+@keyframes changeBg {
+  0% {
+    background-color: rgb(0, 247, 33);
+  }
+  20% {
+    background-color: rgb(10, 159, 170);
+  }
+  40% {
+    background-color: rgb(253, 0, 118);
+  }
+  60% {
+    background-color: rgb(218, 71, 13);
+  }
+  80% {
+    background-color: rgb(198, 230, 22);
+  }
+  100% {
+    background-color: rgb(173, 6, 131);
+  }
+}
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
